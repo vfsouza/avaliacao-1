@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="742e6854-a3d1-4b9d-a713-ae17104c9782" name="Changes" comment="Commit inicial!">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ex6/Ex6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex6/Ex6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ex6/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex6/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ex7/Ex7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex7/Ex7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex7/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex7/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ex8/Ex8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex8/Ex8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex8/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex8/Funcionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +56,14 @@
       <option name="presentableId" value="Default" />
       <updated>1654168312136</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit inicial!">
+      <created>1654436249062</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654436249062</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

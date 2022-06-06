@@ -14,17 +14,16 @@ public class Ex7 {
         int op = -1;
 
         while (op != 0) {
-            System.out.println("\nO que voce deseja?");
             System.out.println("\n1 - Cadastrar novo usuario.");
             System.out.println("2 - Fazer login.");
             System.out.println("0 - Sair");
+            System.out.print("O que voce deseja? ");
 
             try {
                 op = sc.nextInt();
             } catch (InputMismatchException eme) {
                 System.out.println("Nao foi digitado um valor valido. Apenas numeros sao aceitos.");
-                eme.printStackTrace();
-                op = -1;
+                sc = new Scanner(System.in);
             }
 
             switch (op) {

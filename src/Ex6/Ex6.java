@@ -3,15 +3,23 @@ package Ex6;
 import java.util.*;
 
 public class Ex6 {
-    private static final Scanner sc = new Scanner(System.in);
     private static final ArrayList<String> perguntas = new ArrayList<>();
     private static final ArrayList<String> respostas = new ArrayList<>();
 
     public static void teste() {
+        Scanner sc = new Scanner(System.in);
         Usuario user = new Usuario();
 
         System.out.print("Digite seu nome: ");
         user.setUserName(sc.nextLine());
+
+        System.out.print("Quantas perguntas deseja cadastrar? ");
+        try {
+            int quant = sc.nextInt();
+        } catch (InputMismatchException eme) {
+            System.out.println("Nao foi digitado um valor valido. Apenas numeros sao aceitos.");
+            sc = new Scanner(System.in);
+        }
 
         System.out.println("CADASTRO DE PERGUNTAS\n");
         for (int i = 0; i < 10; i++) {

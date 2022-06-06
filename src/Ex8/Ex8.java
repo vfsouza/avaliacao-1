@@ -15,14 +15,11 @@ public class Ex8 {
             quant = sc.nextInt();
         } catch (InputMismatchException eme) {
             System.out.println("Nao foi digitado um valor valido. Apenas numeros sao aceitos.");
-            eme.printStackTrace();
-        } finally {
-
         }
 
         for (int i = 0; i < quant; i++) {
             Funcionario f = new Funcionario();
-            double salario;
+            double salario = 0F;
 
             System.out.print("Nome do funcionario: ");
             f.setNome(sc.next());
@@ -32,10 +29,7 @@ public class Ex8 {
                 salario = sc.nextDouble();
             } catch (InputMismatchException eme) {
                 System.out.println("Nao foi digitado um valor valido. Apenas numeros sao aceitos.");
-                eme.printStackTrace();
-                salario = 0F;
-            } finally {
-
+                sc = new Scanner(System.in);
             }
 
             f.setSalario(salario);

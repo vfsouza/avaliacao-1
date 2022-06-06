@@ -38,6 +38,6 @@ public class Usuario {
 
     @Override
     public String toString() {
-        return "Usuario " + this.getUserName() + "\nAcertos: " + this.getAcertos() + "\nErros: " + this.getErros();
+        return "Usuario " + this.getUserName() + "\nAcertos: " + this.getAcertos() + "\nErros: " + this.getErros() + "\n";
     }
 }
