@@ -4,6 +4,10 @@ public class Funcionario {
     private String nome;
     private double salario;
 
+    /**
+    * Verifica qual bonificação o usuário deve receber.
+    * @return Retorna o bônus ou o desconto que o usuário vai receber.
+    * */
     public double getBonificacao() {
         if (this.salario < 1000) {
             return this.salario * 0.2;
@@ -33,6 +37,6 @@ public class Funcionario {
     @Override
     public String toString() {
         String bonus = this.getBonificacao() < 0 ? "\nDesconto: " + this.getBonificacao() : "\nBonus: " + this.getBonificacao();
-        return "\nFuncionario " + getNome() + "\nSalario: " + getSalario() + bonus + "\nSalario liquido: " + (this.salario + this.getBonificacao() + "\n");
+        return "\nFuncionario " + getNome() + "\nSalario: " + getSalario() + bonus + "\nSalario liquido: " + (this.salario + this.getBonificacao());
     }
 }

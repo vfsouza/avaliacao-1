@@ -9,10 +9,14 @@ import java.util.Scanner;
 public class Ex7 {
     private static final ArrayList<Usuario> users = new ArrayList<>();
 
+    /**
+    * Teste da atividade prática 7
+    */
     public static void teste() {
         Scanner sc = new Scanner(System.in);
         int op = -1;
 
+        // Roda o código até o usuário digitar a opção de sair (0).
         while (op != 0) {
             System.out.println("\n1 - Cadastrar novo usuario.");
             System.out.println("2 - Fazer login.");
@@ -62,6 +66,11 @@ public class Ex7 {
         }
     }
 
+    /**
+     * Faz a verificação do login. Caso ele exista, o sistema envia a mensagem de saudação.
+     * Caso não, o usuário é informado que o cadastro dele não existe.
+     * @return Retorna TRUE caso ele exista e FALSE caso não exista.
+     */
     private static boolean login() {
         Scanner sc = new Scanner(System.in);
         Usuario user = new Usuario();
@@ -78,6 +87,10 @@ public class Ex7 {
         return resp;
     }
 
+    /**
+     * Faz o cadastro do usuário.
+     * @return Retorna TRUE se o usuário foi cadastrado com sucesso e FALSE senão.
+     */
     private static boolean cadastro() {
         Scanner sc = new Scanner(System.in);
         Usuario user = new Usuario();

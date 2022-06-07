@@ -5,6 +5,9 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ex8 {
+    /**
+     * Teste da atividade prática 8.
+     */
     public static void teste() {
         Scanner sc = new Scanner(System.in);
         ArrayList<Funcionario> lista = new ArrayList<>();

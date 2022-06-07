@@ -10,8 +10,9 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int op = -1;
 
+        // Roda o código até o usuário digitar a opção para sair (0).
         while(true) {
-            System.out.println("6 - Exercicio 6 (Jogo de perguntas e respostas)");
+            System.out.println("\n6 - Exercicio 6 (Jogo de perguntas e respostas)");
             System.out.println("7 - Exercicio 7 (Login no sistema)");
             System.out.println("8 - Exercicio 8 (Bonificacao de funcionarios)");
             System.out.println("0 - Sair");
